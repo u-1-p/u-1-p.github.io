@@ -29,7 +29,7 @@ time, mark, audio, video {
 
 main {
   clear: both;
-  font-family: YuMincho, '游明朝', serif;
+  font-family:“游明朝”, YuMincho,　“Times New Roman”, “ヒラギノ明朝 ProN W3″, “Hiragino Mincho ProN”, “HG明朝E”, “メイリオ”, Meiryo, serif;
 /*  text-align: center;*/
 }
 
@@ -72,7 +72,7 @@ main {
 }
 
 .header_title_en {
-  font-family: YuMincho, '游明朝', serif;
+  font-family:“游明朝”, YuMincho,　“Times New Roman”, “ヒラギノ明朝 ProN W3″, “Hiragino Mincho ProN”, “HG明朝E”, “メイリオ”, Meiryo, serif;
   font-weight: 100;
   font-size: 29px;
   letter-spacing: 5px;
@@ -84,7 +84,7 @@ main {
   width: 1em;
   margin: 0.2em;
   float: right;
-  font-family: YuMincho, '游明朝', serif;
+  font-family:“游明朝”, YuMincho,　“Times New Roman”, “ヒラギノ明朝 ProN W3″, “Hiragino Mincho ProN”, “HG明朝E”, “メイリオ”, Meiryo, serif;
   font-weight: 100;
   padding-top: 117px;
   padding-right: 80px;
