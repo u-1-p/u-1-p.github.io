@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 850px;
+  font-size: 13px;
+}
+
+main {
+  clear: both;
+  text-align: center;
+}
+
+.header{
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.header_logo img {
+  width: 14%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.right_box {
+  float: right;
+  width: 43%;
+  min-width: 300px;
+  height: 500px;
+  box-shadow:rgba(0, 0, 0, 0.498039) -11px 11px 25px -4px;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.498039) -11px 11px 25px -4px;
+  -moz-box-shadow:rgba(0, 0, 0, 0.498039) -11px 11px 25px -4px;
+  }
+
+.left_box {
+  float: left;
+  width: 43%;
+  min-width: 300px;
+  height: 500px;
+  margin-top: 106px;
+  box-shadow:rgba(0, 0, 0, 0.498039) 11px -11px 25px -4px;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.498039) 11px -11px 25px -4px;
+  -moz-box-shadow:rgba(0, 0, 0, 0.498039) 11px -11px 25px -4px; 
+
+}
+
+.header_title_en {
+  font-family: YuMincho, '游明朝', serif;
+  font-weight: 100;
+  font-size: 29px;
+  letter-spacing: 5px;
+  padding-top: 233px;
+  padding-left: 70px;
+}
+
+.header_title_ja {
+  width: 1em;
+  margin: 0.2em;
+  float: right;
+  font-family: YuMincho, '游明朝', serif;
+  font-weight: 100;
+  padding-top: 117px;
+  padding-right: 80px;
+  font-size: 29px;
+  text-align: center;
+}
+
+.about {
+  padding: 20px 0 40px;
+  background: url("../img/about_bk.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+
+.about_head {
+  margin-bottom: 20px;
+  font-family: YuMincho, '游明朝', serif;
+  font-size: 24px;
+}
+
+.about_descript {
+  margin-bottom: 15px;
+}
+
+.fa {
+  color: #fff;
+  margin: 30px;
+}
+
+.fa:hover {
+  color: #ccc;
+}
+
+.about_more {
+  font-family: YuMincho, '游明朝', serif;
+  font-size: 15px;
+  display: inline-block;
+  width: 130px;
+  margin: 15px 10px 10px;
+  padding: 4px 4px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about_more:hover {
+  box-shadow: 0 0 10px 3px rgba(255,255,255,.7) inset;
+
+}
+
+
+.works {
+  padding: 20px 0 40px;
+
+}
+
+.works_head {
+  margin-bottom: 20px;
+  font-family: YuMincho, '游明朝', serif;
+  font-size: 24px;
+}
+
+.works_descript {
+  margin-bottom: 22px;
+}
+
+
+.works_more {
+  font-family: YuMincho, '游明朝', serif;
+  font-size: 15px;
+  display: inline-block;
+  width: 130px;
+  margin: 15px 10px 10px;
+  padding: 4px 4px;
+  border: 2px solid #000;
+  background: transparent;  
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.works_more:hover {
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.7) inset;
+
+}
+
+
+.footer {
+  color: #fff;
+  padding: 20px 0 20px;
+  background-color: #000;
+  text-align: center;
+}
+
+.footer_logo img {
+  width: 80px;
+}
+
+.footer_copyright {
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
