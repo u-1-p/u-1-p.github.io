@@ -2,5 +2,5 @@ $('head').append(
 '<style type="text/css">body {display:none;}'
 );
 $(window).load(function() {
-$('body').fadeIn("1000");
+$('body').fadeIn("2000");
 });
